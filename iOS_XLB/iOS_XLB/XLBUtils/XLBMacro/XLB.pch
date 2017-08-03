@@ -1,0 +1,25 @@
+//
+//  XLB.pch
+//  iOS_XLB
+//
+//  Created by 白石洲霍华德 on 2017/7/25.
+//  Copyright © 2017年 JIng. All rights reserved.
+//
+
+#ifndef XLB_pch
+#define XLB_pch
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import  "ThirdLibs.h"
+#import  "MacroDefinition.h"
+#import  "ConfigDefinition.h"
+#import  "HttpConfig.h"
+#import  "HttpRequstManager.h"
+
+
+
+#endif /* XLB_pch */
