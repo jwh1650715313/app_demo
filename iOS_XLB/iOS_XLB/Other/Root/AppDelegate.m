@@ -39,6 +39,8 @@
    
     BaseTabBarController *tabBarView= [[BaseTabBarController alloc]init];
     self.window.rootViewController = tabBarView;
+    
+    
 
 }
 
