@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     [self setSVProgressHUD];
-//    [self removeTabarTopLine];
+    [self removeTabarTopLine];
     [self setViewControllers];
     
     self.view.backgroundColor=WhiteColor;

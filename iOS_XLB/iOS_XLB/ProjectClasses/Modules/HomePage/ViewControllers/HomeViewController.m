@@ -30,7 +30,7 @@
     
     
     
-    [self showProgress];
+  
     
     [self.tableview registerNib:[UINib nibWithNibName:@"testcell" bundle:nil] forCellReuseIdentifier:@"testcell"];
     
@@ -48,7 +48,7 @@
     if (!_tableview) {
         
         NSLog(@"%f======%f",KScreenHeight,self.view.height);
-        _tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, KViewHeight)];
+        _tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, KScreenHeight)];
         _tableview.autoresizingMask = UIViewAutoresizingFlexibleHeight;
         _tableview.dataSource = self;
         _tableview.delegate = self;

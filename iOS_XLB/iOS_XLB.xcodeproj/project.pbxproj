@@ -129,16 +129,15 @@
 		F0636C2B1F29E759004FA45E /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C2A1F29E759004FA45E /* BaseTabBarController.m */; };
 		F0636C2E1F29E7DB004FA45E /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C2D1F29E7DB004FA45E /* UITabBar+Badge.m */; };
 		F0636C321F29E95D004FA45E /* TabBarConfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0636C311F29E95D004FA45E /* TabBarConfigure.plist */; };
-		F0636C351F29EA76004FA45E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C341F29EA76004FA45E /* BaseViewController.m */; };
 		F0636C381F29ED97004FA45E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C371F29ED97004FA45E /* NSString+Extension.m */; };
 		F0636C3C1F29F0AF004FA45E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C3A1F29F0AF004FA45E /* HomeViewController.m */; };
-		F0636C3D1F29F0AF004FA45E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0636C3B1F29F0AF004FA45E /* HomeViewController.xib */; };
 		F0636C4A1F29F0E8004FA45E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C481F29F0E8004FA45E /* MyViewController.m */; };
 		F0636C4B1F29F0E8004FA45E /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0636C491F29F0E8004FA45E /* MyViewController.xib */; };
 		F0636C4F1F29F409004FA45E /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C4D1F29F409004FA45E /* SetViewController.m */; };
 		F0636C501F29F409004FA45E /* SetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0636C4E1F29F409004FA45E /* SetViewController.xib */; };
 		F0636C531F29F62A004FA45E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0636C521F29F62A004FA45E /* AppDelegate.m */; };
 		F0636C5B1F29FE15004FA45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0636C591F29FE15004FA45E /* Main.storyboard */; };
+		F08995E91FAAFE3B00E288BE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08995E81FAAFE3B00E288BE /* BaseViewController.m */; };
 		F0FC32CA1F316ABE00E331FC /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FC32C91F316ABE00E331FC /* Bugly.framework */; };
 		F0FC32CC1F316AFA00E331FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FC32CB1F316AFA00E331FC /* SystemConfiguration.framework */; };
 		F0FC32CE1F316B0100E331FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FC32CD1F316B0100E331FC /* Security.framework */; };
@@ -426,13 +425,10 @@
 		F0636C2C1F29E7DB004FA45E /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
 		F0636C2D1F29E7DB004FA45E /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
 		F0636C311F29E95D004FA45E /* TabBarConfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBarConfigure.plist; sourceTree = "<group>"; };
-		F0636C331F29EA76004FA45E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		F0636C341F29EA76004FA45E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F0636C361F29ED97004FA45E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		F0636C371F29ED97004FA45E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		F0636C391F29F0AF004FA45E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F0636C3A1F29F0AF004FA45E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		F0636C3B1F29F0AF004FA45E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		F0636C471F29F0E8004FA45E /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		F0636C481F29F0E8004FA45E /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		F0636C491F29F0E8004FA45E /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
@@ -442,6 +438,8 @@
 		F0636C511F29F62A004FA45E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0636C521F29F62A004FA45E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F0636C5A1F29FE15004FA45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F08995E71FAAFE3B00E288BE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F08995E81FAAFE3B00E288BE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F0FC32C91F316ABE00E331FC /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		F0FC32CB1F316AFA00E331FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F0FC32CD1F316B0100E331FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -724,8 +722,8 @@
 				F0636C0E1F29C7AD004FA45E /* BaseNavigationController.m */,
 				F0636C291F29E759004FA45E /* BaseTabBarController.h */,
 				F0636C2A1F29E759004FA45E /* BaseTabBarController.m */,
-				F0636C331F29EA76004FA45E /* BaseViewController.h */,
-				F0636C341F29EA76004FA45E /* BaseViewController.m */,
+				F08995E71FAAFE3B00E288BE /* BaseViewController.h */,
+				F08995E81FAAFE3B00E288BE /* BaseViewController.m */,
 				F0FC32D31F3180F700E331FC /* BaseModel.h */,
 				F0FC32D41F3180F700E331FC /* BaseModel.m */,
 				F0FC32D61F31A26500E331FC /* BaseTableViewCell.h */,
@@ -776,7 +774,6 @@
 			children = (
 				F0636C391F29F0AF004FA45E /* HomeViewController.h */,
 				F0636C3A1F29F0AF004FA45E /* HomeViewController.m */,
-				F0636C3B1F29F0AF004FA45E /* HomeViewController.xib */,
 				F0FC32DC1F31C2ED00E331FC /* testcell.h */,
 				F0FC32DD1F31C2ED00E331FC /* testcell.m */,
 				F0FC32E11F31C39F00E331FC /* testcell.xib */,
@@ -1441,7 +1438,6 @@
 				F0636C261F29D77D004FA45E /* SVProgressHUD.bundle in Resources */,
 				F01621F81F28286000A25938 /* WebViewJavascriptBridge.js.txt in Resources */,
 				F01621C01F28286000A25938 /* IQKeyboardManager.bundle in Resources */,
-				F0636C3D1F29F0AF004FA45E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1475,7 +1471,6 @@
 				F01621AB1F28286000A25938 /* AFURLRequestSerialization.m in Sources */,
 				F01621FA1F28286000A25938 /* WebViewJavascriptBridgeBase.m in Sources */,
 				F031980B1F39A81F00EEF6A5 /* MASConstraint.m in Sources */,
-				F0636C351F29EA76004FA45E /* BaseViewController.m in Sources */,
 				F01621C61F28286000A25938 /* MJExtensionConst.m in Sources */,
 				F01621CD1F28286000A25938 /* NSObject+MJKeyValue.m in Sources */,
 				F0636C281F29D77D004FA45E /* SVRadialGradientLayer.m in Sources */,
@@ -1542,6 +1537,7 @@
 				F01622071F2834A500A25938 /* Date.m in Sources */,
 				F0636C271F29D77D004FA45E /* SVProgressHUD.m in Sources */,
 				F01621CF1F28286000A25938 /* NSString+MJExtension.m in Sources */,
+				F08995E91FAAFE3B00E288BE /* BaseViewController.m in Sources */,
 				F0636C241F29D77D004FA45E /* SVIndefiniteAnimatedView.m in Sources */,
 				F01621BB1F28286000A25938 /* IQTextView.m in Sources */,
 				F01621EB1F28286000A25938 /* SDWebImageDownloaderOperation.m in Sources */,

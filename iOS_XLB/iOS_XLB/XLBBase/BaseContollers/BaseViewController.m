@@ -32,7 +32,10 @@
 
 -(void)viewSafeAreaInsetsDidChange
 {
+    
+    [super viewSafeAreaInsetsDidChange];
     NSLog(@"这是iphonex");
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -45,7 +48,7 @@
     [super viewDidDisappear:animated];
     self.bShowTip = NO;
     
-    
+     
 }
 
 
