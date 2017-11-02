@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     [self setSVProgressHUD];
-    [self removeTabarTopLine];
+//    [self removeTabarTopLine];
     [self setViewControllers];
     
     self.view.backgroundColor=WhiteColor;
@@ -29,11 +29,13 @@
 
 
 - (void)viewWillLayoutSubviews{
-    float height = 50;
+    float height = self.tabBar.frame.size.height;
     CGRect tabFrame = self.tabBar.frame; //self.TabBar is IBOutlet of your TabBar
     tabFrame.size.height = height;
     tabFrame.origin.y = self.view.frame.size.height - height;
     self.tabBar.frame = tabFrame;
+    self.tabBar.backgroundColor=[UIColor lightGrayColor];
+
 }
 
 - (void)setSVProgressHUD {
@@ -74,9 +76,9 @@
     vc.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage = [[[UIImage imageNamed:selectedImage] imageToColor:kUIToneBackgroundColor] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //起点-8图标才会到顶，然后加上计算出来的y坐标
-    float origin = -9 + 6;
-    vc.tabBarItem.imageInsets = UIEdgeInsetsMake(origin, 0, -origin,0);
-    vc.tabBarItem.titlePositionAdjustment = UIOffsetMake(-2 + 8, 2-8);
+//    float origin = -9 + 6;
+//    vc.tabBarItem.imageInsets = UIEdgeInsetsMake(origin, 0, -origin,0);
+//    vc.tabBarItem.titlePositionAdjustment = UIOffsetMake(-2 + 8, 2-8);
     //title设置
     [vc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:UIControlStateNormal];
     [vc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:kUIToneBackgroundColor,NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:UIControlStateSelected];

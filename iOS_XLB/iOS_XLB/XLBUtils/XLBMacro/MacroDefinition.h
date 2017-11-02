@@ -14,11 +14,16 @@
 
 // iPhone4,4s：320*480，iPhone5,5s：320*568，iPhone6：375*667，iPhone6plus：414*736
 // 获取设备的物理高度
-#define KScreenHeight       ([UIScreen mainScreen].bounds.size.height)
+#define KScreenHeight       [[UIScreen mainScreen] bounds].size.height
 // 获取设备的物理宽度
 #define KScreenWidth        ([UIScreen mainScreen].bounds.size.width)
 
 #define kScreen_Frame       (CGRectMake(0, 0 ,ScreenWidth,ScreenHeight))
+
+//获取View的Height
+#define KViewHeight       self.view.height
+
+
 
 // 主页面 Tab 高度
 #define kTabBarHeight 49

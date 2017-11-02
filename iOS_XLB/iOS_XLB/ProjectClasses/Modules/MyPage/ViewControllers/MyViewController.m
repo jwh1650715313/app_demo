@@ -22,7 +22,7 @@
     
     
     
-    [self showProgress];
+//    [self showProgress];
 
     
     [(BaseTabBarController* )self.tabBarController setBadgeValue:@"12" index:0];

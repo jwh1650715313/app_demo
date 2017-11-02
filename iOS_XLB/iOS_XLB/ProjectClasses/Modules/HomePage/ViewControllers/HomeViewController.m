@@ -47,11 +47,13 @@
 {
     if (!_tableview) {
         
-        _tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, KScreenHeight) style:UITableViewStylePlain];
+        NSLog(@"%f======%f",KScreenHeight,self.view.height);
+        _tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, KViewHeight)];
         _tableview.autoresizingMask = UIViewAutoresizingFlexibleHeight;
         _tableview.dataSource = self;
         _tableview.delegate = self;
-        _tableview.backgroundColor = [UIColor clearColor];
+        _tableview.backgroundColor=GreenColor;
+//        _tableview.backgroundColor = [UIColor clearColor];
         _tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
         
         
@@ -75,7 +77,7 @@
     
 //    [cell setSeperatorLineForIOS7:indexPath numberOfRowsInSection:10];
     
-    [cell setSeperatorLine:indexPath numberOfRowsInSection:10];
+    [cell setSeperatorLine:indexPath numberOfRowsInSection:20];
     [cell setData:@"我丢" delegate:nil];
     
     return cell;
@@ -92,7 +94,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 10;
+    return 20;
 }
 
 - (void)didReceiveMemoryWarning {

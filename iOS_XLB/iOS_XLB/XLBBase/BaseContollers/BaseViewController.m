@@ -21,6 +21,7 @@
     [self showBack];
     [self requestData];
     
+  
     self.view.backgroundColor = kViewBackgroundColor;
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
         self.edgesForExtendedLayout = UIRectEdgeNone;
@@ -29,7 +30,10 @@
     
 }
 
-
+-(void)viewSafeAreaInsetsDidChange
+{
+    NSLog(@"这是iphonex");
+}
 
 -(void)viewWillAppear:(BOOL)animated
 {

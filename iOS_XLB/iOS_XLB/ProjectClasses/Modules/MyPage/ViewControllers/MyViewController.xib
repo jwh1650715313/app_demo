@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13196"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,7 +18,24 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mKi-zD-Lle">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="634"/>
+                    <color key="backgroundColor" red="0.32777488230000001" green="0.75981324910000003" blue="0.98608452079999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="Hez-2N-AM0"/>
+                        <constraint firstAttribute="height" constant="634" id="VBg-e3-nqP"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mKi-zD-Lle" secondAttribute="trailing" id="Tu0-eC-hu7"/>
+                <constraint firstItem="mKi-zD-Lle" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VSm-C2-ri4"/>
+                <constraint firstItem="mKi-zD-Lle" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xRj-B2-aQa"/>
+                <constraint firstAttribute="bottom" secondItem="mKi-zD-Lle" secondAttribute="bottom" constant="33" id="yY9-oj-o8t"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
 </document>
